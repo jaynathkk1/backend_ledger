@@ -18,7 +18,7 @@ const transactionRoutes = require("./routes/transaction.route")
  */
 app.get("/",(req,res)=>{
     res.status(200).json({
-        messsage:"Ledger backend server is running"
+        messsage:"Ledger backend server is running or live"
     })
 })
 app.use("/api/auth",authRouter)
